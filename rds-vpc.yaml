@@ -1,6 +1,10 @@
+# Description of what this change includes
+# Revision number
+# Date
+
 AWSTemplateFormatVersion: '2010-09-09'
 Description: CloudFormation template to create a VPC spanning 3 Availability Zones in us-west-2.
-, 
+
 Resources:
   MyVPC:
     Type: AWS::EC2::VPC
